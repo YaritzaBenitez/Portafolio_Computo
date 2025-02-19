@@ -16,7 +16,7 @@ Los clústeres de computadoras conectan varias máquinas para trabajar como un s
 
 * Escalabilidad:Capacidad de aumentar el número de nodos o procesadores para mejorar el rendimiento sin afectar la eficiencia del sistema.
 
-##Arquitecturas de HPC
+## Arquitecturas de HPC
 
 * Arquitectura de Memoria Compartida: Todos los procesadores acceden a una memoria común. Es útil para problemas que requieren acceso rápido a grandes volúmenes de datos.
 
