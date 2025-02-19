@@ -4,7 +4,7 @@
 
 Es el uso de supercomputadoras y sistemas informáticos avanzados para procesar grandes volúmenes de datos y realizar cálculos complejos a velocidades significativamente mayores que las computadoras convencionales. Se basa en la ejecución paralela de procesos para optimizar el uso de los recursos computacionales.
 
-# Características Principales
+### Características Principales
 
 * Procesamiento Paralelo: Se divide una tarea en múltiples partes que se ejecutan simultáneamente en varios procesadores.
 Se implementa a través de arquitecturas de múltiples núcleos o clústeres de computadoras.
