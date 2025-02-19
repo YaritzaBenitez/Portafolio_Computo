@@ -1,4 +1,4 @@
-### Investigación Conceptos Basicos de Computación de Alto Desempeño.
+# Investigación Conceptos Basicos de Computación de Alto Desempeño.
 
 ## Computación de Alto Desempeño o High-Performance Computing (HPC)
 
