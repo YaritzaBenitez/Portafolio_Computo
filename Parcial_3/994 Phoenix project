@@ -1,0 +1,39 @@
+# **Resumen de The Phoenix Project**  
+
+*The Phoenix Project* es una novela que habla sobre la transformación digital de Parts Unlimited, una empresa que se encontraba al borde
+del colapso. A Bill Palmer, lo ascienden de forma inesperadamente a VP de Operaciones de TI tras una crisis, y se le piden que salve el
+Proyecto Phoenix, el cual es una iniciativa clave para la supervivencia de la compañía.
+
+A lo largo de toda la historia, Bill enfrenta distintas situaciones en donde se nos explican distintos conceptos como:
+- La gestión del Trabajo en Curso (WIP):** Al igua Cuando Bill tuvo que aprender que si sobrecarga el sistema se reduce el rendimiento y genera cuellos de botella.
+
+- **Automatización y Estandarización:** Automatizar tareas repetitivas en despliegue y pruebas es esencial en HPC para manejar cargas masivas sin errores manuales.
+
+- **Monitorización y Visibilidad:** Tener métricas en tiempo real es vital, como en centros de supercómputo donde se vigila el estado de cada nodo y proceso.
+
+- **Gestión de Cambios y Control de Versiones:** La falta de procesos estructurados genera caos, algo crítico en HPC donde incluso un cambio menor puede afectar miles de procesos.
+
+- **Infraestructura como Código y Entornos Consistentes:** Evitar errores impredecibles asegurando que desarrollo, pruebas y producción sean equivalentes. Clave en simulaciones científicas y entornos reproducibles de HPC.
+
+- **Seguridad Integrada (DevSecOps):** Integrar la seguridad desde el inicio del desarrollo, especialmente en sistemas críticos o con datos sensibles.
+
+- **Teoría de Restricciones y Flujo de Valor:** Aplicación de las “Tres Vías” de DevOps: flujo, retroalimentación y aprendizaje continuo. Enfocarse en entregar valor de forma ágil y confiable.
+
+---
+
+## ⚙️ Relación con el Cómputo de Alto Desempeño
+:
+Aunque el libro no menciona explícitamente "HPC", muchas de las lecciones aplican directamente:
+
+- Requiere **orquestación eficiente** de múltiples procesos y recursos.
+- Necesita **alta disponibilidad, confiabilidad y rendimiento sostenido**.
+- **Automatización, replicabilidad y trazabilidad** son imprescindibles.
+- Se gestiona como una operación crítica que apoya la innovación y el análisis avanzado.
+
+---
+
+## ✅ Conclusión
+
+*The Phoenix Project* no solo es una guía narrativa sobre cómo salvar un departamento de TI caótico, sino también una introducción práctica a los principios de **DevOps**, que tienen gran intersección con los objetivos del **cómputo de alto desempeño**.
+
+Enseña que la clave no está solo en la tecnología, sino en cómo se gestiona el trabajo, las personas y los flujos de valor. Para organizaciones que manejan infraestructuras complejas —como clústeres HPC, nubes híbridas o entornos distribuidos—, los aprendizajes del libro son directamente aplicables.
