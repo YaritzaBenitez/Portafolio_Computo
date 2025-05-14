@@ -1,0 +1,33 @@
+name: Generar gráficas
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar repositorio
+      uses: actions/checkout@v3
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: Instalar dependencias
+      run: pip install -r requirements.txt
+
+    - name: Ejecutar script de gráficas
+      run: python graficar.py
+
+    - name: Subir gráfica a GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./output
+        publish_branch: gh-pages
