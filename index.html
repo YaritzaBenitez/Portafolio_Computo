@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de Gráficas</title>
+</head>
+<body>
+    <h1>Visualización de Gráficas Generadas a partir del Dataset</h1>
+
+    <section>
+        <h2>Introducción</h2>
+        <p>
+            Este proyecto visualiza los datos de un dataset sobre estudiantes, 
+            proporcionando sobre el rendimiento estudiantil en un programa de matemáticas.
+            Proporciona información detallada tanto sobre el rendimiento académico. 
+            Las gráficas son generadas usando Python y almacenadas en la carpeta <strong>output</strong>.
+        </p>
+    </section>
+
+    <section>
+        <h2>Gráficas Generadas</h2>
+        
+        <h3>Gráfica 1: Histograma de calificación final</h3>
+        <img src="Parcial_3/993_elasticsearch/output/Histograma_calificaciones.png" alt="Gráfica 1" width="800">
+
+        <h3>Gráfica 2: Promedio por sexo</h3>
+        <img src="Parcial_3/993_elasticsearch/output/Promedio_sexo.png" alt="Gráfica 2" width="800">
+      
+        <h3>Gráfica 3: Promedio por nivel educativo de la madre </h3>
+        <img src="Parcial_3/993_elasticsearch/output/Promedio_madre.png" alt="Gráfica 3" width="800">
+      
+        <h3>Gráfica 4: Relación entre tiempo de estudio y calificación final </h3>
+        <img src="Parcial_3/993_elasticsearch/output/Relacion_estudio.png" alt="Gráfica 4" width="800">
+      
+        <h3>Gráfica 5: Correlación entre variables numéricas </h3>
+        <img src="Parcial_3/993_elasticsearch/output/correlacion.png" alt="Gráfica 5" width="800">
+
+
+    </section>
+
+    <section>
+        <h2>Proceso de Carga y Graficación</h2>
+        <p>
+            El proceso de carga de datos se realiza mediante el script <code>carga.py</code>, 
+            que utiliza Elasticsearch para indexar los datos del archivo <code>math-students.csv</code>. 
+            Luego, las gráficas se generan mediante el script <code>graficar.py</code>, que utiliza 
+            bibliotecas de visualización como Matplotlib para crear las representaciones gráficas.
+        </p>
+    </section>
+
+</body>
+</html>
